@@ -1,0 +1,44 @@
+h1 {
+  color: #f9f9f9;
+  font-size: 20px;
+}
+p {
+  font-size: 10px;
+}
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.post-container {
+  background-color: #8b5dff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f9f9f9;
+  display: flex;
+  padding: 10px;
+  gap: 3px;
+  flex-direction: column;
+}
+.filter {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #8b5dff;
+  border: none;
+  padding: 5px;
+  color: #f9f9f9;
+  border-radius: 20px;
+}
+.like-count {
+  display: flex;
+  gap: 10px;
+}
+.image {
+  max-height: 60px;
+  object-fit: contain;
+}

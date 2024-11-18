@@ -1,0 +1,44 @@
+.navbar-container {
+  height: 30px;
+  width: 100vw;
+  background-color: #8b5dff;
+  box-shadow: #212121;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+}
+.logo {
+  font-size: 1rem;
+  color: #f9f9f9;
+  font-weight: 900;
+  text-align: center;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6a42c2;
+  width: 300px;
+  padding: 3px;
+  font-size: 10px;
+  gap: 10px;
+  color: #f9f9f9;
+  text-align: center;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 1rem;
+}
+.home {
+  color: #f9f9f9;
+}
+.create-post {
+  color: #f9f9f9;
+}
+.link-container {
+  display: flex;
+  gap: 20px;
+}
